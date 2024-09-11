@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide default calendar icon in date input fields */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
