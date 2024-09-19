@@ -1,9 +1,11 @@
-import Form from "../components/Form/Form";
+// import Form from "../components/Form/Form";
+import Table from "../components/Table/Table";
 
 const HomePage = () => {
   return (
-    <div  className="bg-white bg-opacity-50">
-      <Form />
+    <div className=" m-10 bg-[#f3f4ff]">
+      {/* <Form /> */}
+      <Table />
     </div>
   );
 };

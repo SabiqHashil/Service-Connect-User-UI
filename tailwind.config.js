@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         "custom-gray": "#736a68",
+        "table-color": "#606792",
       },
     },
   },
